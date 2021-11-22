@@ -18,6 +18,13 @@
 
 @import './variables';
 
+@mixin anchor-links {
+  a.hover{
+    color: #9DB6C4;
+  }
+  
+}
+
 :root {
     box-sizing: border-box;
   }
