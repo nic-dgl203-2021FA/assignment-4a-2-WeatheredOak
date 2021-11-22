@@ -1,3 +1,21 @@
+/*
+  ^^^^^^^^ Color reference ^^^^^^
+
+    #0b171d - Rich Black Fogra 29
+    #466273 - Dark Electric Blue
+    #4D7893 - Celadon Blue
+    #9DB6C4 - Pewter Blue
+    #DAD7CD - Timberwolf
+    #A3B18A - Laurel Green
+    #588157 - Fern Green
+    #3A5A40 - Hunter Green
+    #344E41 - Brunswick Green
+    #A20104 - Rofous
+
+*/
+
+
+
 @import './variables';
 
 :root {
@@ -53,7 +71,7 @@
 
   .tile {
     padding: 1.5em;
-    background-color: #fff;
+    background-color: $tile-color;
   }
 
   .tile > :first-child {
