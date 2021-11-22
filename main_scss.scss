@@ -15,6 +15,9 @@
     font-family: $font-family;
   }
 
+  h1 , h2 {
+    font-family: $headings-fonts;
+  }
   .container {
     display: grid;
     grid-template-areas: "title title"
