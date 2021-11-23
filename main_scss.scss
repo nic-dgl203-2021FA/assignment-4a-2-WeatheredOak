@@ -21,10 +21,8 @@
 @mixin anchor-links {
   color: #DAD7CD;
   background-color: #A20104;
-  a :hover{
-    background: #A3B18A;
   }
-}
+  
 
 :root {
     box-sizing: border-box;

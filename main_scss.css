@@ -93,9 +93,6 @@ nav {
   list-style-type: none;
   border-radius: 0.2em;
 }
-.site-nav a :hover {
-  background: #A3B18A;
-}
 
 .site-nav > li {
   margin-top: 0;
@@ -107,9 +104,6 @@ nav {
   display: block;
   padding: 0.5em 1em;
   text-decoration: none;
-}
-.site-nav > li > a a :hover {
-  background: #A3B18A;
 }
 
 .site-nav > li + li {
@@ -183,8 +177,5 @@ nav {
   display: block;
   padding: 0.5em 1em;
   text-decoration: none;
-}
-.cta-button a :hover {
-  background: #A3B18A;
 }
 /*# sourceMappingURL=main_scss.css.map */
