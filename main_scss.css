@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /*
 DGL 203
 Assignment 4A-2
@@ -20,11 +27,6 @@ Modified Date: 22 November, 2021
     #A20104 - Rofous
 
 */
-:root {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 *,
 ::before,
 ::after {

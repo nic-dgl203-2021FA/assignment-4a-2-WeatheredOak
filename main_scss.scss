@@ -24,7 +24,9 @@ Modified Date: 22 November, 2021
 
 
 
+@use './resets';
 @import './variables';
+
 
 @mixin anchor-links {
   color: #DAD7CD;
@@ -44,10 +46,6 @@ Modified Date: 22 November, 2021
     @else {
       border: none;
     }
-  }
-
-:root {
-    box-sizing: border-box;
   }
 
   *,
