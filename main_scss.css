@@ -82,14 +82,19 @@ nav {
 }
 
 .site-nav {
+  color: #DAD7CD;
+  background-color: #A20104;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0.5em;
-  background-color: #466273;
+  background-color: #9DB6C4;
   list-style-type: none;
   border-radius: 0.2em;
+}
+.site-nav a :hover {
+  background: #A3B18A;
 }
 
 .site-nav > li {
@@ -98,10 +103,13 @@ nav {
 
 .site-nav > li > a {
   color: #DAD7CD;
-  background-color: #344E41;
+  background-color: #A20104;
   display: block;
   padding: 0.5em 1em;
   text-decoration: none;
+}
+.site-nav > li > a a :hover {
+  background: #A3B18A;
 }
 
 .site-nav > li + li {
@@ -170,10 +178,13 @@ nav {
 }
 
 .cta-button {
+  color: #DAD7CD;
+  background-color: #A20104;
   display: block;
-  background-color: #cc6b5a;
-  color: white;
   padding: 0.5em 1em;
   text-decoration: none;
+}
+.cta-button a :hover {
+  background: #A3B18A;
 }
 /*# sourceMappingURL=main_scss.css.map */

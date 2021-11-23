@@ -20,7 +20,10 @@
 
 @mixin anchor-links {
   color: #DAD7CD;
-  background-color:#344E41 ;
+  background-color: #A20104;
+  a :hover{
+    background: #A3B18A;
+  }
 }
 
 :root {
@@ -92,10 +95,11 @@
   }
 
   .site-nav {
+    @include anchor-links();
     display: flex;
     margin: 0;
     padding: .5em;
-    background-color: $nav-color;
+    background-color: $accent-color;
     list-style-type: none;
     border-radius: .2em;
   }
@@ -168,9 +172,8 @@
   }
 
   .cta-button {
+    @include anchor-links();
     display: block;
-    background-color: #cc6b5a;
-    color: white;
     padding: .5em 1em;
     text-decoration: none;
   }
