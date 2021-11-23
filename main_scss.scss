@@ -48,12 +48,6 @@ Modified Date: 22 November, 2021
     }
   }
 
-  *,
-  ::before,
-  ::after {
-    box-sizing: inherit;
-  }
-
   body {
     background: $primary-color;
     font-family: $font-family;

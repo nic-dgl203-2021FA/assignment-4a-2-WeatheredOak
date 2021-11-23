@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
 }
+* ::before,
+* ::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
 
 /*
 DGL 203
@@ -27,13 +32,6 @@ Modified Date: 22 November, 2021
     #A20104 - Rofous
 
 */
-*,
-::before,
-::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
 body {
   background: #4D7893;
   font-family: "Raleway", sans-serif;
