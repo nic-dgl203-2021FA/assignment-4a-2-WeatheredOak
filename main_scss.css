@@ -61,6 +61,7 @@ nav {
 }
 
 .sidebar-bottom {
+  border: 3px solid black;
   grid-area: aside2;
 }
 

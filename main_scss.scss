@@ -23,6 +23,20 @@
   background-color: #A20104;
   }
   
+  @mixin border-stroke($val) {
+    @if $val == light {
+      border: 1px solid black;
+    }
+    @else if $val == medium {
+      border: 3px solid black;
+    }
+    @else if $val == heavy {
+      border: 6px solid black;
+    }
+    @else {
+      border: none;
+    }
+  }
 
 :root {
     box-sizing: border-box;
@@ -72,6 +86,7 @@
   }
 
   .sidebar-bottom {
+    @include border-stroke(medium);
     grid-area: aside2;
   }
 
@@ -152,7 +167,7 @@
     justify-content: center;
     align-items: center;
     line-height: .7;
-  }
+    }
 
   .cost > span {
     margin-top: 0;
