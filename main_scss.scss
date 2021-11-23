@@ -93,6 +93,12 @@ Modified Date: 22 November, 2021
   .tile {
     padding: 1.5em;
     background-color: $tile-color;
+    h1{
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
   }
 
   .tile > :first-child {
