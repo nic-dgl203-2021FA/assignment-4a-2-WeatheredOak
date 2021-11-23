@@ -87,7 +87,7 @@ nav {
   display: flex;
   margin: 0;
   padding: 0.5em;
-  background-color: #5f4b44;
+  background-color: #466273;
   list-style-type: none;
   border-radius: 0.2em;
 }
@@ -97,10 +97,10 @@ nav {
 }
 
 .site-nav > li > a {
+  color: #DAD7CD;
+  background-color: #344E41;
   display: block;
   padding: 0.5em 1em;
-  background-color: #cc6b5a;
-  color: white;
   text-decoration: none;
 }
 

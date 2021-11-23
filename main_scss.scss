@@ -19,10 +19,8 @@
 @import './variables';
 
 @mixin anchor-links {
-  a.hover{
-    color: #9DB6C4;
-  }
-  
+  color: #DAD7CD;
+  background-color:#344E41 ;
 }
 
 :root {
@@ -97,7 +95,7 @@
     display: flex;
     margin: 0;
     padding: .5em;
-    background-color: #5f4b44;
+    background-color: $nav-color;
     list-style-type: none;
     border-radius: .2em;
   }
@@ -107,10 +105,9 @@
   }
 
   .site-nav > li > a {
+    @include anchor-links();
     display: block;
     padding: .5em 1em;
-    background-color: #cc6b5a;
-    color: white;
     text-decoration: none;
   }
 
